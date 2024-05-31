@@ -1,0 +1,174 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+nav li {
+    list-style: none;
+    color: white;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: var(--primary-color);
+    width: 100px;
+    height: 43px;
+    padding: 5px 4px ;
+    color: white;
+}
+
+
+
+
+/* banner section start */
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    background-color: #1a1a1a;
+}
+.text-content {
+    max-width: 400px;
+    text-align: left;
+    margin-right: 20px;
+}
+h1, h2 {
+    margin: 0;
+    color: white;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+p {
+    color: #b3b3b3;
+    margin: 10px 0;
+}
+.skills {
+    margin: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+.skills span {
+    color: orange;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.portfolio-btn {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+.portfolio-btn svg {
+    margin-left: 8px;
+}
+.hire-btn {
+    background-color: #333;
+}
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.social-icons a {
+    color: #b3b3b3;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.image-content {
+    /* max-width: 900px; */
+    text-align: center;
+}
+.image-content img {
+    border-radius: 50%;
+    /* width: 100%; */
+    max-width: 300px;
+}
+
+/* banner section end */
+
+
+
+/* about me section start */
+
+
+
+.about-container {
+    background-color: #2c2c2c;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text {
+    /* max-width: 60%; */
+}
+.about-text h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.about-text p {
+    margin: 10px 0;
+    color: #b3b3b3;
+}
+.about-experience {
+    text-align: right;
+}
+.about-experience .stars {
+    color: orange;
+    font-size: 1.2em;
+}
+.about-experience .years {
+    font-size: 2em;
+    margin: 5px 0 0;
+}
+.about-experience .exp-text {
+    font-size: 0.8em;
+    color: #b3b3b3;
+}
+@media only screen and (min-width:100px) and (max-width:576px) {
+    *{
+        margin: 0;
+    }
+    nav{
+        display: inline;
+    }    
+    nav > ul{
+            display: inline;
+        }
+
+        .container-2{
+             display: inline;
+        }
+        
+}
